@@ -1,1 +1,1 @@
-# duplex
+# E-commerce web Stor-ex
