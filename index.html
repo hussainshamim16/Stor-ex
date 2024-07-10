@@ -1,114 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stor-ex</title>
 
-    <!-- bootstarap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <!-- font awsom icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- css link -->
-    <link rel="stylesheet" href="./style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stor-ex</title>
+
+  <!-- bootstarap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- font awsom icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- css link -->
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <!-- <div class="container m-5" id="parent" style="flex-wrap: wrap;  width: 100%; justify-content: space-around; align-items: center; display: flex;">
+  <!-- <div class="container m-5" id="parent" style="flex-wrap: wrap;  width: 100%; justify-content: space-around; align-items: center; display: flex;">
         
     </div> -->
-    <!-- first nav -->
-    <nav class="navbar navbar-expand-lg mb-2">
-        <div class="container-fluid">
+  <!-- first nav -->
+  <nav class="navbar navbar-expand-lg mb-1">
+    <div class="container-fluid">
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  English
-                </a> 
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">urdu</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  USD
-                </a> 
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">PKR</a></li>
-                  <li><a class="dropdown-item" href="#">TAKA</a></li>
-                  
-                  <li><a class="dropdown-item" href="#">RIYAL</a></li>
-                </ul>
-                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">call us +92 3160578265</a>
-              </li> 
-              
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              English
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">urdu</a></li>
             </ul>
-            <ul class="d-flex align-items-center mt-2">
-             <li class="nav-item">Free delivery on order over <span id="rupees"class="red">$200</span></li>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              USD
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">PKR</a></li>
+              <li><a class="dropdown-item" href="#">TAKA</a></li>
+
+              <li><a class="dropdown-item" href="#">RIYAL</a></li>
             </ul>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">call us +92 3160578265</a>
+          </li>
+
+        </ul>
+        <ul class="d-flex align-items-center mt-2">
+          <li class="nav-item">Free delivery on order over <span id="rupees" class="red">$200</span></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- 1 end -->
+  <hr>
+  <!-- second nav -->
+
+  <nav class="navbar navbar-expand-lg p-3">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#" id="logo">Stor-ex</a>
+      <ul class="nav nav-underline">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">Collection</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="icon">
+        <i class="fa-solid fa-magnifying-glass" id="" class="navicon"></i>
+        <i class="fa-regular fa-user" id="" class="navicon"></i>
+        <i class="fa-regular fa-heart" id="" class="navicon"></i>
+        <i class="fa-solid fa-bag-shopping" id="" class="navicon"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- behave -->
+  <section id="carouselExample" class="carousel slide ">
+    <div class="carousel-inner h-1">
+      <div class="carousel-item two active">
+
+        <div class="text">
+          <h3>Enjoy this offer today</h3>
+          <h1>New collection <br> sale 40%</h1>
+          <button type="submit">SHOP NOW</button>
+
+        </div>
+      </div>
+      <div class="carousel-item one">
+
+        <div class="text">
+          <h3>Enjoy this offer today</h3>
+          <h1>New collection <br> sale 40%</h1>
+          <button type="submit">SHOP NOW</button>
+        </div>
+      </div>
+     
+    </div>
+    <button class="carousel-control-prev m-5" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev" aria-hidden="true"><i class="fa-solid fa-circle-arrow-left"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next m-5" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next" aria-hidden="true"><i class="fa-solid fa-circle-arrow-right"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+  <!-- section 02 -->
+  <section class="product">
+    <div class="text d-flex">
+      <h1 class="mb-4">New Arrivals</h1>
+      <ul class="d-flex mb-5">
+        <li><a href="#" class="active">All Product</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Twos</a></li>
+      </ul>
+    </div>
+    <div class="container mb-4 d-flex align-items-center flex-wrap justify-content-around gap-3">
+      <div class="card m-0" style="width: 18rem;">
+        <img
+          src="https://www.befunky.com/images/wp/wp-2018-08-product-photography-18.jpg?auto=avif,webp&format=jpg&width=944"
+          class="card-img-top" alt="product images">
+        <div class="card-body text-start">
+          <h2>Drinker</h2>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <h5>$ 50.00</h5>
+        </div>
+      </div>
+      <div class="card m-0" style="width: 18rem;">
+        <img
+          src="https://www.befunky.com/images/wp/wp-2018-08-product-photography-18.jpg?auto=avif,webp&format=jpg&width=944"
+          class="card-img-top" alt="product images">
+        <div class="card-body text-start">
+          <h2>Drinker</h2>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <h5>$ 50.00</h5>
+        </div>
+      </div>
+      <div class="card m-0" style="width: 18rem;">
+        <img
+          src="https://www.befunky.com/images/wp/wp-2018-08-product-photography-18.jpg?auto=avif,webp&format=jpg&width=944"
+          class="card-img-top" alt="product images">
+        <div class="card-body text-start">
+          <h2>Drinker</h2>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <h5>$ 50.00</h5>
+        </div>
+      </div>
+      <div class="card m-0" style="width: 18rem;">
+        <img
+          src="https://www.befunky.com/images/wp/wp-2018-08-product-photography-18.jpg?auto=avif,webp&format=jpg&width=944"
+          class="card-img-top" alt="product images">
+        <div class="card-body text-start">
+          <h2>Drinker</h2>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <h5>$ 50.00</h5>
+        </div>
+      </div>
+      <div class="card m-0" style="width: 18rem;">
+        <img
+          src="https://www.befunky.com/images/wp/wp-2018-08-product-photography-18.jpg?auto=avif,webp&format=jpg&width=944"
+          class="card-img-top" alt="product images">
+        <div class="card-body text-start">
+          <h2>Drinker</h2>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <h5>$ 50.00</h5>
+        </div>
+      </div>
+      <div class="card m-0" style="width: 18rem;">
+        <img
+          src="https://www.befunky.com/images/wp/wp-2018-08-product-photography-18.jpg?auto=avif,webp&format=jpg&width=944"
+          class="card-img-top" alt="product images">
+        <div class="card-body text-start">
+          <h2>Drinker</h2>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <h5>$ 50.00</h5>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-lg more">Discover More</button>
+  </section>
+
+  <!-- <div class=" mt-5 fashion d-flex align-items-center justify-content-between">
+<div class="boys same">
+<h1>Men Fashion Shop</h1>
+<button>click</button>
+
+</div>
+<div class="girls same">
+<h1>Women Fashion</h1>
+<button>click</button>
+
+</div>
+</div> -->
+<section class="productdeatails">
+<div class="text">
+  <h1>Up To 50% Discount</h1>
+  <p>Adipisicing elit. Dicta aliquam, eaque sint aliquid, officiis libero consequuntur tempora accusantium nisi a molestiae, esse inventore delectus. Enim nisi doloribus, voluptates eligendi ex, inventore aspernatur eos cupiditate voluptas perferendis exercitationem harum impedit nobis?</p>
+  <button class="same">Shop</button>
+</div>
+  </section>
+  <section class="timer d-flex">
+
+    <div class="image"><img src="./images/bagShoping.png" alt="bagImages" srcset=""></div>
+    <div class="timmsec text-center">
+      <h1>Deal Of The Day</h1> <br>
+      <div class="intervel d-flex align-items-center text-center justify-content-around">
+        <div class="day"> 
+          <h1>0</h1>
+          <h5>Day's</h5>
+        </div>
+        <div class="hourse">
+          <h1>0</h1>
+          <h5>Hours</h5>
+        </div>
+        <div class="minutes">
+          <h1>00</h1>
+          <h5>Minutes</h5>
+        </div>
+        <div class="seconds">
+          <h1>00</h1>
+          <h5>Second</h5>
+        </div>
+      </div> <br>
+      <button class="more">SHOP NOW</button>
+    </div>
+  </section>
+
+  <section class="service-section p-5">
+    <div class="auto-container">
+        <div class="inner-container">
+            <div class="row clearfix">
+                <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-one">
+                        <div class="inner-box">
+                            <div class="icon-box"><i class="fa-solid fa-truck-fast"></i></div>
+                            <h3><a href="index.html">Free Shipping</a></h3>
+                            <p>Free shipping on oder over $100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-one">
+                        <div class="inner-box">
+                            <div class="icon-box"><i class="fa-brands fa-cc-visa"></i></div>
+                            <h3><a href="index.html">Secure Payment</a></h3>
+                            <p>We ensure secure payment with PEV</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-one">
+                        <div class="inner-box">
+                            <div class="icon-box"><i class="fa-solid fa-headset"></i></div>
+                            <h3><a href="index.html">Support 24/7</a></h3>
+                            <p>Contact us 24 hours a day, 7 days a week</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-one">
+                        <div class="inner-box">
+                            <div class="icon-box"><i class="fa-solid fa-arrow-rotate-left"></i></div>
+                            <h3><a href="index.html">30 Days Return</a></h3>
+                            <p>Simply return it within 30 days for an exchange.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section class="blog d-flex justify-content-around">
+    <div class="card hed1" style="width: 18rem;">
+      <img src="./images/bagShoping.png" class="card-img-top" alt="...">
+      <hr>
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+    <div class="card hed1" style="width: 18rem;">
+      <img src="./images/bagShoping.png" class="card-img-top" alt="...">
+      <hr>
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+    <div class="card hed1" style="width: 18rem;">
+      <img src="./images/bagShoping.png" class="card-img-top" alt="...">
+      <hr>
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </section>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <h2 class="text-center">Customer Reviews</h2>
+      <div class="carousel-item active">
+        <div class="text d-flex justify-content-center">
+          
+          <hr>
+          <p>Xorem ipsum dolor sit amet consectetur adipisicing elit. At nihil corporis consectetur quos dicta quibusdam, iste eveniet fugiat cupiditate quas mollitia necessitatibus natus aperiam dolorum dolorem tenetur ad maiores velit.</p>
+          <ul style="list-style: none;text-align: center;">
+            <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+            <hr class="w-100">
+            <li>Zulfiqar Ali</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <div class="text d-flex justify-content-center">
+          
+          <hr>
+          <p>Tinpsum dolor sit amet consectetur adipisicing elit. At nihil corporis consectetur quos dicta quibusdam, iste eveniet fugiat cupiditate quas mollitia necessitatibus natus aperiam dolorum dolorem tenetur ad maiores velit.</p>
+          <ul style="list-style: none;text-align: center;">
+            <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
+            <hr class="w-100">
+            <li>Ali Header</li>
           </div>
         </div>
-      </nav>
-      <!-- 1 end -->
-       <hr>
-      <!-- second nav -->
       
-        <nav class="navbar navbar-expand-lg p-3">
-          <div class="container-fluid ">
-            <a class="navbar-brand" href="#" id="logo">Stor-ex</a>
-            <ul class="nav nav-underline">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">Collection</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-secondary-emphasis" aria-current="page" href="#">Contact</a>
-                </li>
-            </ul>
-            <div class="icon">
-                <i class="fa-solid fa-magnifying-glass" id="" class="navicon"></i>
-                <i class="fa-regular fa-user" id="" class="navicon"></i>
-                <i class="fa-regular fa-heart" id="" class="navicon"></i>
-                <i class="fa-solid fa-bag-shopping" id="" class="navicon"></i>
-            </div>
+      <div class="carousel-item">
+        <div class="text d-flex justify-content-center">
+          
+          <hr>
+          <p>Consectetur adipisicing elit. At nihil corporis consectetur quos dicta quibusdam, iste eveniet fugiat cupiditate quas mollitia necessitatibus natus aperiam dolorum dolorem tenetur ad maiores velit.</p>
+          <ul style="list-style: none;text-align: center;">
+            <span><i class="fa-solid fa-star"></i></i><i class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i></span>
+            <hr class="w-100">
+            <li>Rehman Malik</li>
           </div>
-        </nav>
-        <!-- behave -->
-        <div id="carouselExample" class="carousel slide ">
-            <div class="carousel-inner h-1">
-              <div class="carousel-item active">
-                <img src="./images/slider 1.jpg" class="d-block w-100" alt="swiperImages">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/slider 2.jpg" class="d-block w-100" alt="swiperImages">
-              </div>
-            </div>
-            <button class="carousel-control-prev m-5"  type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev" aria-hidden="true"><i class="fa-solid fa-circle-arrow-left"></i></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next m-5"  type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next" aria-hidden="true"><i class="fa-solid fa-circle-arrow-right"></i></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>    
+        </div>
       
+    </div>
+    <button class="carousel-control-prev m-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev" aria-hidden="true"><i class="fa-solid fa-circle-arrow-left"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next m-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next" aria-hidden="true"><i class="fa-solid fa-circle-arrow-right"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./app.js"></script>
+
+  <section class="joinUs p-5 text-center lh-lg">
+    <h1>Join with Us</h1>
+    <p>Subscribe to our newsletter to receive news Update</p>
+    <input type="email" placeholder="Your Email Address" class="w-50 bg-transparent inpat"> <br>
+    <button type="submit " class='more'>Subscribe</button>
+  </section>
+  <!-- <footer class="">
+    <div class="fot fotsame">
+      <h1>Stor-ex</h1>
+      <p>&copy 2020 Stor-ex. <br>
+        All Rights <br>
+        Reserved</p>
+    </div>
+    <div class="fot fotsame">
+      <h5>About us</h5>
+      <ul>
+        <li>About us</li>
+        <li>Store location</li>
+        <li>Orders tracking</li>
+      </ul>
+    </div>
+    <div class="fot fotsame">
+      <h5>Useful links</h5>
+      <ul>
+        <li>return</li>
+        <li>Support policy</li>
+        <li>size guide</li>
+        <li>FAQs</li>
+      </ul>
+
+    </div>
+    <div class="fot fotsame">
+      <h5>FOLLOW US</h5>
+      <ul>
+        <li>Instagram</li>
+        <li>Facebook</li>
+        <li>Twiter</li>
+        <li>Github</li>
+      </ul>
+    </div>
+    <div class="fot fotsame">
+      <h5>Contact</h5>
+      <ul>
+        <li>+92 3160578265</li>
+        <li>hj422748@gmail.com</li>
+        <li>www.hussainshamim.com</li>
+        <li>@hussainshamim16</li>
+      </ul>
+
+    </div>
+  </footer> -->
+
+  <footer>
+    <div class="container d-flex justify-content-around align-items-center p-5"> 
+      
+      <!-- ABOUT Location -->
+      <!-- <div class="fot fotsame">
+        <h1>Stor-ex</h1>
+        <p>&copy 2020 Stor-ex. <br>
+          All Rights <br>
+          Reserved</p>
+      </div> -->
+      
+      <div class="col-md-3">
+        <h6>ABOUT US</h6>
+        <ul class="link">
+          <li><a href="#."> About us</a></li>
+          <li><a href="#."> Store location</a></li>
+          <li><a href="#."> Orders tracking</a></li>
+      </ul>
+      </div>
+      <!-- HELPFUL LINKS -->
+      <div class="col-md-3">
+        <h6>HELPFUL LINKS</h6>
+        <ul class="link">
+          <li><a href="#."> Products</a></li>
+          <li><a href="#."> Find a Store</a></li>
+          <li><a href="#."> Features</a></li>
+          <li><a href="#."> Privacy Policy</a></li>
+          <li><a href="#."> Blog</a></li>
+          <li><a href="#."> Press Kit </a></li>
+        </ul>
+      </div>
+
+      
+      <!-- SHOP -->
+      <div class="col-md-3">
+        <h6>SHOP</h6>
+        <ul class="link">
+          
+          <li><a href="#."> Career</a></li>
+          <li><a href="#."> Shipping Methods</a></li>
+          <li><a href="#."> Contact</a></li>
+          <li><a href="#."> Support</a></li>
+          <li><a href="#."> Retailer</a></li>
+        </ul>
+      </div>
+      
+      <!-- MY ACCOUNT -->
+      <div class="col-md-3">
+        <h6>MY ACCOUNT</h6>
+        <ul class="link">
+          <li><a href="#."> Login</a></li>
+          <li><a href="#."> My Account</a></li>
+          <li><a href="#."> My Cart</a></li>
+          <li><a href="#."> Wishlist</a></li>
+          <li><a href="#."> Checkout</a></li>
+        </ul>
+      </div>
+      
+      <!-- Rights -->
+      
+    </div>
+    <div class="rights text-center">
+      <p>&copy  2024 Stor-ex All right reserved. </p>
+      <div class="scroll"> <a href="#wrap" class="go-up"><i class="lnr lnr-arrow-up"></i></a> </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./app.js"></script>
 </body>
+
 </html>
