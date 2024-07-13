@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.suppret {
+    color: black;
+    text-align: center;
+}
+
+
+
+section {
+    margin: 0px 0px 150px 0px;
+}
+
+.nav-item {
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+.red {
+    color: rgb(255, 62, 62);
+}
+
+i {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+hr {
+    /* color: gray; */
+    border: 2px solid gray;
+}
+
+#logo {
+    font-weight: bolder;
+
+    color: rgb(58, 58, 58);
+}
+
+.carousel-inner {
+    height: 80vh;
+    /* border: 1px solid red; */
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    /* height: 80vh; */
+    padding: 30px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+
+
+}
+
+.fa-circle-arrow-right {
+    color: black;
+    font-size: 40px;
+}
+
+.fa-circle-arrow-left {
+    color: black;
+    font-size: 40px;
+}
+
+.carousel-item.one {
+    /* border: 1px solid red   ; */
+    position: relative;
+    background-image: url(./images/slider\ 1.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+
+
+    padding-left: 50%;
+
+}
+
+/*  */
+.hide {
+    /* display: none; */
+    visibility: hidden;
+    height: auto;
+}
+
+.show {
+    visibility: visible;
+}
+
+.team {
+    display: flex;
+    /* border: 2px solid green; */
+    /* padding: 20px; */
+    justify-content: flex-end;
+    /* background-color: gainsboro; */
+    /* position: absolute; */
+    /* z-index: 80; */
+}
+
+.boxer {
+    /* border: 2px solid red; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    /* background-color: antiquewhite; */
+}
+
+.boxer .images {
+    /* background-color: red; */
+    width: 10%;
+    text-align: center;
+}
+
+.boxer .images img {
+    width: 90%;
+}
+
+.boxer .heading {
+    /* background-color: red; */
+    width: 40%;
+}
+
+.boxer .heading h5 {
+    font-size: 14px;
+}
+
+.boxer .buttons {
+    /* background-color: red; */
+    width: 30%;
+}
+
+.boxer .buttons a {
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 119, 28, 0.89);
+}
+
+.extra {
+    width: 40%;
+    height: 70vh;
+    background-color: rgb(223, 223, 223);
+    /* border-radius: 10px; */
+    z-index: 4;
+    position: absolute;
+
+
+
+    text-align: center;
+    color: white;
+    padding: 30px 40px;
+
+}
+
+.extra h1 {
+    color: black;
+}
+
+/*  */
+/* profile */
+
+.actev {
+    color: rgba(255, 119, 28, 0.89);
+}
+
+.block {
+    pointer-events: none;
+}
+
+.team .profile form input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0px;
+
+}
+
+.team .search {
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.team .profile form select {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0px;
+
+}
+
+.team .profile form button {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0px;
+    border: none;
+    background-color: rgba(255, 119, 28, 0.89);
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+/*  */
+
+.carousel-item.two {
+
+    /* border: 1px solid red   ; */
+    position: relative;
+    background-image: url(./images/slider\ 2.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+
+    padding-left: 50%;
+
+}
+
+.carousel-item .ander {
+    text-align: left;
+    /* background-color: red; */
+}
+
+.text {
+    /* border: 1px solid black;  */
+    /*  */
+    width: 80%;
+    color: rgb(32, 32, 32);
+    text-align: left;
+
+}
+
+
+.text h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.text h1 {
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+
+.text button {
+    background: transparent;
+    padding: 10px 50px;
+    border-radius: 50px;
+    /* border: 2px solid gray; */
+}
+
+.carousel-item .text {
+    text-align: left;
+}
+
+.product {
+    text-align: center;
+
+}
+
+.product .text {
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    color: rgb(32, 32, 32);
+    flex-direction: column;
+    width: 100%;
+}
+
+.product .text ul {
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+}
+
+.product .text ul li a {
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+}
+
+.product .text ul li a.active {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+button.more {
+    background-color: rgba(255, 119, 28, 0.89);
+    padding: 5px 50px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+
+div.fashion {
+    /* border: 1px solid red; */
+    height: 20vh;
+}
+
+.same {
+    /* border: 1px solid red; */
+    width: 50%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    padding: 20px;
+    color: black;
+
+}
+
+.same button {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 40px;
+}
+
+.girls {
+
+    background-image: linear-gradient(rgba(255, 214, 79, 0.87), rgba(223, 223, 223, 0.5)), url(./images/girls.jpg);
+    text-align: start;
+
+}
+
+.boys {
+    text-align: end;
+    background-image: linear-gradient(rgba(223, 223, 223, 0.5), rgba(255, 214, 79, 0.87)), url(./images/boyFashion.jpg);
+
+}
+
+.fashion {
+    /* margin-bottom: 100px; */
+}
+
+.timer {
+    /* background-color: red; */
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.timmsec {
+    width: 50%;
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 100%;
+
+
+}
+
+.intervel,
+.product {
+    /* margin: 30px 0px; */
+}
+
+.timer .image {
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+.timer .image img {
+    width: 100%;
+    /* border: 1px solid red; */
+    background: transparent;
+}
+
+.inpat {
+    border: none;
+    border-bottom: 2px solid rgb(58, 58, 58);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+
+    /* display: flex; */
+    align-items: center;
+    text-align: left;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color: rgb(36, 36, 36);
+    background-color: #e1e6ff;
+    padding: 20px 50px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.fotsame {
+    /* background-color: red; */
+    /* text-align: center; */
+    padding: 10px;
+    padding-right: 40px;
+
+}
+
+.fotsame ul {
+    text-align: left;
+}
+
+.fotsame h1 {
+    /* text-align: center; */
+    /* border: 1px solid red; */
+}
+
+.blog {
+    /* background-color: red; */
+
+    width: 100%;
+    height: 70vh;
+}
+
+.hed1 {
+    cursor: pointer;
+}
+
+ul {
+    text-align: left;
+    /* border: 1px solid red; */
+    padding-left: 0px;
+}
+
+ul.link a {
+
+    text-decoration: none;
+    /* text-decoration: underline; */
+    color: rgba(255, 119, 28, 0.89);
+    font-size: 0.9rem;
+}
+
+.col-md-3 h6 {
+
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+ul.link a:hover {
+
+
+    text-decoration: underline;
+
+}
+
+.productdeatails {
+    height: 60vh;
+    /* background-color: red; */
+    padding: 50px 70px;
+    background-image: url(./images/second--.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.productdeatails .text p {
+    width: 70%;
+}
+
+.productdeatails button {
+    background-color: rgba(255, 119, 28, 0.89);
+    color: white;
+    font-weight: 700;
+    border: none;
+    /* pointer-events: none; */
+}
+
+.service-section {
+    background-color: rgba(223, 223, 223, 0.342);
+
+}
+
+.icon-box i {
+    font-size: 2rem;
+    color: rgba(255, 119, 28, 0.89);
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.inner-box h3 a {
+    color: black;
+    text-decoration: none;
+}
+
+.carousel-inner {
+    /* background-color: aquamarine; */
+    /* text-align: center;
+    display: flex;
+    align-items: center */
+}
+
+.carousel-item {}
+
+.carousel-item h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.carousel-item hr {
+    width: 30%;
+    /* margin-left: 35%; */
+
+
+}
+
+.carousel-item .text {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: left;
+
+
+}
+
+.carousel-item p {
+    width: 70%;
+    text-align: center;
+    /* margin-left: 25%; */
+    /* align-items: center; */
+
+}
+
+ul.target {
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+.carousel-item ul li {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ul.mb-5 li {
+    /* border: 1px solid red; */
+    padding: 6px;
+    
+}
+
+/* farm */
+form#farm{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1;
+    border: 2px solid red;
+}
+form#farm input{
+padding: 10px 20px;
+width: 70%;
+border-radius: 20px;
+margin-bottom: 20px;
+border-color: rgba(255, 119, 28, 0.89);
+}
+form#farm  h1{
+font-size: 2rem;
+font-weight: bolder;
+}
+form#farm  button{
+    font-size: 1rem;
+    padding: 15px 70px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 119, 28, 0.89);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* ul.mb-5 li:active{
+    border-bottom: 2px solid black;
+} */
